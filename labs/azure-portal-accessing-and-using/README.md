@@ -49,3 +49,11 @@ This lab introduces the Azure Portal interface and core navigation elements. It 
 - Explore Azure Resource Graph and single-value tiles  
 - Create dashboards for VM and networking metrics  
 - Learn to automate deployment of dashboards using ARM templates or Bicep 
+
+---
+
+## Lab Output Screenshots
+![Ghub1](https://github.com/user-attachments/assets/ff9cc2cf-2c1a-4307-9017-976df56df83b)
+![Ghub2](https://github.com/user-attachments/assets/483703bb-fbfa-499d-8b73-88ec8a3f3caf)
+![Ghub3](https://github.com/user-attachments/assets/2b24af24-7ea3-4df4-a852-067f3c62bf69)
+![Ghub4](https://github.com/user-attachments/assets/1a7ea474-291e-4dc6-a029-03c7b302623a)
