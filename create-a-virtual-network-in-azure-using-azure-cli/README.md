@@ -8,8 +8,8 @@ This repository documents the **"Create a Virtual Network in Azure Using Azure C
 
 - Mounted a storage account in Azure Cloud Shell
 - Identified default region mismatch between storage and deployed resources
-- Set the CLI default location manually to `westus`
-- Verified new default with `az configure --list-defaults`
+- Set the CLI default location manually to "westus"
+- Verified new default with "az configure --list-defaults"
 - Created a Virtual Network explicitly in West US
 - Added two distinct subnets to the VNet for extended practice
 
@@ -19,7 +19,7 @@ This repository documents the **"Create a Virtual Network in Azure Using Azure C
 
 - Azure subscription with appropriate permissions
 - Access to Azure Cloud Shell (Bash or PowerShell)
-- Existing resource group (e.g. `rg-vnet-lab`)   
+- Existing resource group (e.g. "rg-vnet-lab")   
 
 ---
 
@@ -28,6 +28,7 @@ This repository documents the **"Create a Virtual Network in Azure Using Azure C
 - Even though the storage account was mounted successfully, the UI did **not** prompt for region selection. The storage account was confirmed to be in **West US** using:
 
 ```bash
+```
 
 ---
 
@@ -36,7 +37,8 @@ This repository documents the **"Create a Virtual Network in Azure Using Azure C
 **Initial VNet Creation (Default to East US)**  
 
 ```bash
-az network vnet create --name vnet1 --resource-group rg-vnet-lab --address-prefixes 10.1.0.0/16
+# (az network vnet create --name vnet1 --resource-group rg-vnet-lab --address-prefixes 10.1.0.0/16)
+```
 
 ---
 
@@ -45,23 +47,26 @@ az network vnet create --name vnet1 --resource-group rg-vnet-lab --address-prefi
 **Set CLI default to West US**
 
 ```bash
-az configure --defaults location=westus
+# (az configure --defaults location=westus)
+```
 
 **Confirm the change**
 
 ```bash
-az configure --list-defaults
+# (az configure --list-defaults)
+```
 
 ---
 
 ## 4. Redeploy Virtual Network in West US
 
-After setting `westus` as our CLI default, we recreate the VNet to ensure it lands in the correct region:
+After setting "westus" as our CLI default, we recreate the VNet to ensure it lands in the correct region:
 
 **VNet Creation (Default to West US)**
 
 ```bash
-az network vnet create --name vnetwest --resource-group rg-vnet-lab --address-prefixes 10.1.0.0/16
+# (az network vnet create --name vnetwest --resource-group rg-vnet-lab --address-prefixes 10.1.0.0/16)
+```
 
 ---
 
@@ -74,6 +79,7 @@ az network vnet create --name vnetwest --resource-group rg-vnet-lab --address-pr
 ```bash
 az network vnet subnet create --vnet-name vnetwest --name subnet1 --resource-group rg-vnet-lab --address-prefixes 10.1.1.0/24
 az network vnet subnet create --vnet-name vnetwest --name subnet2 --resource-group rg-vnet-lab --address-prefixes 10.1.2.0/24
+```
 
 ---
 
