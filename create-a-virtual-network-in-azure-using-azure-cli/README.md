@@ -27,8 +27,7 @@ This repository documents the **"Create a Virtual Network in Azure Using Azure C
 
 - Even though the storage account was mounted successfully, the UI did **not** prompt for region selection. The storage account was confirmed to be in **West US** using:
 
-```bash
-```
+Bash
 
 ---
 
