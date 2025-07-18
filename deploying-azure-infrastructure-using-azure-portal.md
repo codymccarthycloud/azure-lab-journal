@@ -49,9 +49,11 @@ az deployment group create \
 ## Conclusion 
   - Noticeable progress in understand key concepts of using the CLI. Identifying and exploring cloud related terminology and roles through practical hands on experience.
 
+---
 
 ## Lab Output Screenshots
 
-
-
+![exported storage account template and parameters](https://github.com/user-attachments/assets/6e8c8458-73ea-4679-a542-260075ef8173)
+![unzipping downloaded storage account resource template in a storage deployment folder](https://github.com/user-attachments/assets/cae1fb85-c582-453a-be3e-497072956ae5)
+![locate desktop folder and deploy ARM template and parameters using azures CLI](https://github.com/user-attachments/assets/71efe59e-0f08-4974-b6da-ece968429d5d)
 
