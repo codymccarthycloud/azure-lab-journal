@@ -74,5 +74,6 @@ All using Azure CLI for setup and Portal for final steps. Done like a pro.
 ![CLI AZ Eventgrid storageid system-topic create](https://github.com/user-attachments/assets/9af86ab5-d584-4007-b645-34a22febea8b)
 ![Create Queue Queue Subscription Storage Queue Event Types](https://github.com/user-attachments/assets/a2d12a8e-6234-4516-8bf1-c15faf78a862)
 ![uploading a deployable template parameters zip blob](https://github.com/user-attachments/assets/075bd28f-4989-4465-94bb-ea468b81edb6)
+![PutBlob event](https://github.com/user-attachments/assets/acf30164-d4fa-49b0-b74a-f1c10b1ee541)
 
 
