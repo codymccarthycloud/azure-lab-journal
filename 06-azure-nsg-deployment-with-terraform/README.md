@@ -60,7 +60,7 @@ terraform apply
 
 ## Lab Output Screenshots
 
-![creating a lab tf file for NSG with Terraform in azure cli entering in the resource group manually](https://github.com/user-attachments/assets/55f2673f-f12a-464d-ad53-9baa13e5f49b)
+![creating a lab tf file for NSG with Terraform in azure cli](https://github.com/user-attachments/assets/ef7c620a-ef88-49ac-bcd3-89e823df5f1b)
 ![upload a file into bash and view it](https://github.com/user-attachments/assets/cbda7d24-0197-43bf-9060-45f158ed76a9)
 ![terraform init in cli](https://github.com/user-attachments/assets/04cfe555-e350-4855-b7ba-c20caf4ff43d)
 ![terraform plan view uploaded Lab tf](https://github.com/user-attachments/assets/7e60f44d-6347-4463-ac28-0be1840ffe75)
