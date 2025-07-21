@@ -1,6 +1,7 @@
 # Deploy a Network Security Group with Inbound/Outbound Rules 
 - Create a .tf file using the code and edit it before saving and uploading to the CLI.
 
+```hcl
 terraform {
   required_providers {
     azurerm = {
@@ -78,3 +79,5 @@ resource "azurerm_network_security_rule" "example2" {
   resource_group_name         = "Enter Resource group name"
   network_security_group_name = azurerm_network_security_group.nsg.name
 }
+
+```
