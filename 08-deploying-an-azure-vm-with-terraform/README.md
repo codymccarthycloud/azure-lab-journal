@@ -1,0 +1,84 @@
+# Lab: Deploying an Azure VM with Terraform
+
+## Environment Details
+- Subscription ID: 28e1e42a-4438-4c30-9a5f-7d7b488fd883
+- Resource Group: 187-c756d714-deploying-an-azure-vm-with-terraform
+- Azure Portal: https://portal.azure.com/#@realhandsonlabs.com/resource/subscriptions/28e1e42a-4438-4c30-9a5f-7d7b488fd883/resourceGroups/187-c756d714-deploying-an-azure-vm-with-terraform/overview
+- Deployment Terminal: Azure Cloud Shell (Bash)
+
+---
+
+## Step 1: Create and Upload the Terraform File
+
+1. Upload the provided Terraform `.tf` configuration code into Azure Bash.
+2. Modify the following line with your lab’s resource group name:
+```hcl
+   resource_group_name = "187-c756d714-deploying-an-azure-vm-with-terraform"
+```
+
+---
+
+## Step 2: Deploy the VM Using Terraform CLI
+
+```bash
+terraform init
+terraform plan
+terraform apply
+```
+## Step 2: Deploy the VM Using Terraform CLI
+
+In Azure Cloud Shell (Bash), run the following commands:
+
+terraform init
+terraform plan
+terraform apply
+
+- Confirm deployment by typing "yes" when prompted.
+- Terraform will provision the following:
+  - Virtual Network (VNet)
+  - Subnet
+  - Public IP
+  - Network Interface (NIC)
+  - Boot Diagnostics Storage Account
+  - Virtual Machine (Ubuntu)
+
+---
+
+## Step 3: Validate Deployment in Azure Portal
+
+- Go to the Azure Portal → Resource Group → VNet
+- Confirm the **Subnet** was created under the VNet
+- Go to **Network Interface (`robot-nic`)** → IP Configurations:
+  - Private IP assigned (e.g., 10.0.0.4)
+  - Public IP assigned
+  - NIC connected to correct Subnet
+
+---
+
+## Step 4: Confirm VM Boot via Serial Console
+
+- Navigate to the deployed VM → **Serial Console**
+- Confirm console output shows Ubuntu login screen or diagnostics prompt
+- VM status should display **Running**
+- Optional: Check Boot Diagnostics tab for screenshots and log files stored in the associated storage account
+
+---
+
+## Conclusion
+
+Terraform successfully deployed and configured:
+- VM with public/private IPs
+- Subnet within VNet
+- Network Interface with IP configuration
+- Boot diagnostics via linked storage account
+
+Deployment confirmed via CLI and Portal  
+Serial Console verifies successful boot  
+Lab completed with clean infrastructure state
+
+---
+
+## Lab Output Screenshots
+
+
+
