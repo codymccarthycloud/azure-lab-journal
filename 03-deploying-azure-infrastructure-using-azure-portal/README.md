@@ -54,8 +54,6 @@ az deployment group create \
 ## Lab Output Screenshots
 
 ![download storage account resource template](https://github.com/user-attachments/assets/b7b63070-9ae7-44e8-8ed3-3cedadbf0333)
-![exported storage account template and parameters running back into the CLI](https://github.com/user-attachments/assets/e7712c67-b1fb-456b-bb0e-3453caf0ad07)
-
 ![unzipping downloaded storage account resource template in a storage deployment folder](https://github.com/user-attachments/assets/cae1fb85-c582-453a-be3e-497072956ae5)
-![locate desktop folder and deploy ARM template and parameters using azures CLI](https://github.com/user-attachments/assets/71efe59e-0f08-4974-b6da-ece968429d5d)
+![locate desktop folder and deploy ARM template and parameters using azures CLI](https://github.com/user-attachments/assets/909dc3ca-2660-41e3-ade1-e92f74c4bc4f)
 
