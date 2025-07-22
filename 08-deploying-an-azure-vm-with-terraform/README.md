@@ -75,10 +75,13 @@ Terraform successfully deployed and configured:
 Deployment confirmed via CLI and Portal  
 Serial Console verifies successful boot  
 Lab completed with clean infrastructure state
+Learn to create .tf file deployments that work across multiple cloud platforms
 
 ---
 
 ## Lab Output Screenshots
 
-
-
+![test vm tf](https://github.com/user-attachments/assets/fb5451fc-3576-45d9-bf68-9ae472419609)
+![confirming the subnet has been added to the VNET](https://github.com/user-attachments/assets/dec0a331-1551-428d-a994-169d7b824519)
+![private and public ip assigned to the NIC network interface](https://github.com/user-attachments/assets/d893cadd-fa5d-42a8-8e53-a6a2d593244a)
+![vm serial console check if it is running](https://github.com/user-attachments/assets/e75b16c3-f961-4dd2-b118-b35849379111)
