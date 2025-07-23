@@ -40,16 +40,26 @@ Use Bash shell or Azure Cloud Shell:
 ```bash
 ssh cloud_user@20.253.202.64
 ```
+
 ---
 
 ## Step 4: Paste and Execute Onboarding Script
 
-- Paste the onboarding script from Step 2 into the Linux VM terminal
-- When prompted, use your Azure credentials to authenticate:
-  - Username: cloud_user_p_c5c5f803@realhandsonlabs.com
-  - Password: ^4+G%*58
-- Wait for the agent to finish installing and registering the VM
+Once inside the Linux VM terminal:
 
+1. Paste the Azure Arc onboarding script from Step 2
+2. The script installs the Arc agent and begins registration
+3. Instead of asking for credentials in the terminal, you'll see:
+To complete registration, visit: https://microsoft.com/devicelogin Enter code: ABC1D23EF
+
+
+4. Open the link in your browser
+5. Enter the provided verification code
+6. Sign in with your Azure lab credentials:
+- Username: **************************
+- Password: ******
+
+This completes the device-based authentication and registers your
 ---
 
 ## Step 5: Verify VM in Azure Arc
@@ -93,14 +103,4 @@ You can now manage the onboarded Linux VM just like an Azure resource:
 ![ssh login to the linuxVM using the private ip](https://github.com/user-attachments/assets/7db757dd-a9e8-4d62-92b3-cab5526e32d0)
 ![refresh azure arc machine to check and see if the linuxvm has been enabled](https://github.com/user-attachments/assets/b3c2feec-6e71-4415-8653-af85afe1581a)
 ![check to see capabilities enabled by azure arc](https://github.com/user-attachments/assets/ee3ed572-b85b-4b4e-bb5f-1da38d357e0e)
-
-
-
-
-
-
-
-
-
-
 
