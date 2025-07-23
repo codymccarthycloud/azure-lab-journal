@@ -90,6 +90,19 @@ You can now manage the onboarded Linux VM just like an Azure resource:
 
 ## Lab Output Screenshots
 
+![add create machine azure arc and ssh into the linuxVM with the local ip](https://github.com/user-attachments/assets/cab6efce-c38c-4558-b6db-eafbb812de0a)
+![add a server with azure arc copy or download script](https://github.com/user-attachments/assets/a8d16b57-88f1-4ca0-b71c-582b10c9b869)
+![onboarding azure arc with the linux vm using the script in cli](https://github.com/user-attachments/assets/d137a3f9-771d-42dc-b991-e4d18440096f)
+![ssh login to the linuxVM using the private ip](https://github.com/user-attachments/assets/7db757dd-a9e8-4d62-92b3-cab5526e32d0)
+![refresh azure arc machine to check and see if the linuxvm has been enabled](https://github.com/user-attachments/assets/b3c2feec-6e71-4415-8653-af85afe1581a)
+![check to see capabilities enabled by azure arc](https://github.com/user-attachments/assets/ee3ed572-b85b-4b4e-bb5f-1da38d357e0e)
+
+
+
+
+
+
+
 
 
 
