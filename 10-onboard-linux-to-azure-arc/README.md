@@ -12,14 +12,10 @@ This lab demonstrates how to onboard a Linux VM into Azure Arc by:
 
 ## Step 1: Lab Credentials
 
-### Azure Portal Account (for accessing Azure resources)
-- Username: cloud_user_p_c5c5f803@realhandsonlabs.com
-- Password: ^4+G%*58
-
 ### Linux VM Login (for SSH access)
 - Username: cloud_user
-- Password: BixusD8NBb1JW@GdYoTy
-- Public IP: 20.253.202.64
+- Password: ****************
+- Public IP: **.***.***.**
 
  The Linux VM is hosted *outside* Azure and will be onboarded using Azure Arc.
 
@@ -83,8 +79,9 @@ You can now manage the onboarded Linux VM just like an Azure resource:
 
 - SSH connection succeeded 
 - Arc script installed and executed 
+- Run azcmagnet connect script line after install to register the machine with azure arc
 - VM appeared in Azure Portal under Hybrid Compute 
-- Azure management
+- Azure management enabled
 
 ---
 
