@@ -87,11 +87,10 @@
 ![azure ai machine learning studio navigate to automated ml](https://github.com/user-attachments/assets/75dab533-1702-44e2-a597-a3a6241a96b4)
 ![azure amchine learning workspace launch studio](https://github.com/user-attachments/assets/aa24f06b-d2b2-4337-9009-6dd6742707ff)
 ![choose from web files](https://github.com/user-attachments/assets/24a16377-fc2d-483c-abd3-ec4ed04b9004)
-![create dataset](https://github.com/user-attachments/assets/d01e4761-5a5f-4453-b457-50011b702b9e)
 ![create data asset as tabular for taxifare url](https://github.com/user-attachments/assets/5174d338-36a2-43e4-a373-37fee32d2f6a)
-![retrieve data from public webpage url](https://gi
+![retrieve data from public webpage url]
 ![schema select what values to display](https://github.com/user-attachments/assets/37b370e1-b897-4116-8a1d-1a380f776f7f)
-thub.com/user-attachments/assets/0180e3e5-f1e4-49b1-a516-c3299a2bf577)
+![create dataset](https://github.com/user-attachments/assets/d01e4761-5a5f-4453-b457-50011b702b9e)
 ![deploy to real time endpoint](https://github.com/user-attachments/assets/bafec124-db03-4903-93c0-3aa65592c45a)
 ![deploy vm DS2_v2 taxifares](https://github.com/user-attachments/assets/f60d745b-df08-4585-9a9f-eb521edc20e4)
 ![machine learning studio ai model](https://github.com/user-attachments/assets/c33f8014-6ad8-4d3c-8f8b-6f3b254eb543)
