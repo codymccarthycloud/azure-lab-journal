@@ -1,4 +1,4 @@
-# Lab: Deploy Windows Server VM with AD DS + Explaining Entra Connect Sync
+# Lab: Deploy Windows Server VM with AD DS 
 
 
 ## Overview
@@ -66,7 +66,7 @@ You should see the Windows desktop — don’t close this session.
 
 ---
 
-## 📋 Step 5: Confirm AD DS Services
+## Step 5: Confirm AD DS Services
 
 - After reboot → open **Server Manager**
 - Check **Dashboard**:
@@ -80,14 +80,14 @@ You should see the Windows desktop — don’t close this session.
 ## Step 6: Microsoft Entra Connect (Azure AD Connect Sync)
 
 ### Legacy Azure AD Connect Tool Not Available
-- Older tools (Azure AD Connect, Microsoft Entra Connect installer) are **deprecated or restricted** in lab environments
+- Older tools (Azure AD Connect, Microsoft Entra Connect installer) are **deprecated** in lab environments
 
-### Continue via Microsoft Entra Connect Sync
+### Continue via Microsoft Entra ID
 1. Go to [https://entra.microsoft.com](https://entra.microsoft.com)
 2. Sign in with your Azure subscription credentials
 3. Navigate to:
    - **Identity > Synchronization**
-   - Use **Cloud Sync** or configure **Entra ID Sync**
+   
 4. Follow steps to link local AD domain (`cloudlab.local`) to Microsoft Entra ID
 
 ---
@@ -98,7 +98,14 @@ You should see the Windows desktop — don’t close this session.
  RDP access confirmed  
  AD DS role installed and promoted to domain controller  
  Services verified via Server Manager  
- Identity sync configured using **Microsoft Entra Connect Sync** via web portal
+ Attempt identity sync configured using **Microsoft Entra ID** via web portal
+ Investiagte practical routable forst names when prmoting server to domain controller
+ Understand UPN for user login in active directory
 
 ## Lab Output Screenshots
+
+![create a virtual machine](https://github.com/user-attachments/assets/3cbbbfa4-732c-4998-93ce-c8fa9844c852)
+![create a virtual machine deployment](https://github.com/user-attachments/assets/943fdda8-e496-4cd1-b97f-6812402da813)
+![create a virtual machine deployed](https://github.com/user-attachments/assets/fcc65606-62da-40fa-b007-be1f43fea488)
+![create an inbound security rule allow port 3389 rdp](https://github.com/user-attachments/assets/8e1977b1-5194-4f73-81ae-b4aef71d27e6)
 
