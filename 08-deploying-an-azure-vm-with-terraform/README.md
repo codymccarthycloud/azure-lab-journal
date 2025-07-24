@@ -1,11 +1,5 @@
 # Lab: Deploying an Azure VM with Terraform
 
-## Environment Details
-- Subscription ID: 28e1e42a-4438-4c30-9a5f-7d7b488fd883
-- Resource Group: 187-c756d714-deploying-an-azure-vm-with-terraform
-- Azure Portal: https://portal.azure.com/#@realhandsonlabs.com/resource/subscriptions/28e1e42a-4438-4c30-9a5f-7d7b488fd883/resourceGroups/187-c756d714-deploying-an-azure-vm-with-terraform/overview
-- Deployment Terminal: Azure Cloud Shell (Bash)
-
 ---
 
 ## Step 1: Create and Upload the Terraform File
