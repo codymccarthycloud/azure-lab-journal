@@ -84,8 +84,8 @@
 
 ## Lab Output Screenshots
 
-![azure ai machine learning studio navigate to automated ml](https://github.com/user-attachments/assets/75dab533-1702-44e2-a597-a3a6241a96b4)
 ![azure amchine learning workspace launch studio](https://github.com/user-attachments/assets/aa24f06b-d2b2-4337-9009-6dd6742707ff)
+![azure ai machine learning studio navigate to automated ml](https://github.com/user-attachments/assets/75dab533-1702-44e2-a597-a3a6241a96b4)
 ![choose from web files](https://github.com/user-attachments/assets/24a16377-fc2d-483c-abd3-ec4ed04b9004)
 ![create data asset as tabular for taxifare url](https://github.com/user-attachments/assets/5174d338-36a2-43e4-a373-37fee32d2f6a)
 ![retrieve data from public webpage url]
