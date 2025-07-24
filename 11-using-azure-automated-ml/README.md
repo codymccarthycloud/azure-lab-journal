@@ -93,8 +93,8 @@
 ![create dataset](https://github.com/user-attachments/assets/d01e4761-5a5f-4453-b457-50011b702b9e)
 ![deploy vm DS2_v2 taxifares](https://github.com/user-attachments/assets/f60d745b-df08-4585-9a9f-eb521edc20e4)
 ![machine learning studio ai model](https://github.com/user-attachments/assets/c33f8014-6ad8-4d3c-8f8b-6f3b254eb543)
-![deploy to real time endpoint](https://github.com/user-attachments/assets/bafec124-db03-4903-93c0-3aa65592c45a)
 ![model predicted value](https://github.com/user-attachments/assets/8137a3e9-67bc-43d3-adc3-4e8a479c578b)
+![deploy to real time endpoint](https://github.com/user-attachments/assets/bafec124-db03-4903-93c0-3aa65592c45a)
 ![test](https://github.com/user-attachments/assets/8bd0078e-6f27-4056-a37e-22b9b007d9f5)
 
 
