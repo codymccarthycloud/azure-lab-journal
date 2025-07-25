@@ -100,7 +100,7 @@ Verify the plan shows creation of VNet, and Subnets: Apply
 ### Storage Account Metrics
 - Show recent metrics (e.g., transactions, ingress/egress) for blobs
 
-### Azure Monitor Activity Log (Desktop) 
+### Azure Monitor Activity Log
 - Check to see the activity for the tf file upload, vnet creation, and subnet creation
 
 ---
