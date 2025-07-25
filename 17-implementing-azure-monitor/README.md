@@ -1,4 +1,4 @@
-# Lab 15: Implementing Azure Monitor on SQL Database
+# Lab 17: Implementing Azure Monitor on SQL Database
 
 ## Overview
 This lab demonstrates how to provision a SQL database and implement monitoring using Azure Monitor, including security auditing, alerting, diagnostic settings, and log analysis.
