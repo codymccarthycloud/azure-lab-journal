@@ -72,7 +72,8 @@ resource "azurerm_storage_account" "lab" {
 
 ---
 
-## Conclusion: Deployment Records Live in Azure CLI Activity Logs **Enable Diagnostics with a Log Analytics Workspace to view in Monitor > Activity Log**
+## Conclusion: Deployment Records Live in Azure CLI Activity Logs 
+### **Enable Diagnostics with a Log Analytics Workspace to view in Monitor > Activity Log**
   
   - CLI Cloud Shell itself doesn’t maintain a record of what resources you deployed. It only keeps your files and command history.
   - To audit deployments, check the Azure Activity Log in the portal:
