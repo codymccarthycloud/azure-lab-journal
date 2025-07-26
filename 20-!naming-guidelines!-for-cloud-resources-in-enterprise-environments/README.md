@@ -17,8 +17,8 @@ Components
 |----------------|--------------------------------------------|------------------------------------------
 | `Env`          | `(e.g., lab, test, prod)`                  |	`Environment`                      
 | `Location`     | `abbreviation	scus (South Central US)`    |	`Azure region`                         
-| `ResourceType` | `(vm, vnet, nsg, etc.)	vm`                 |	`Type of resource`                      
-| `Role`	       | `(web, db, jump)	jump`                     | `Function of the resource`                
+| `ResourceType` | `(vm, vnet, nsg, etc.)`                    |	`Type of resource`                      
+| `Role`	       | `(web, db, jump)`                          | `Function of the resource`                
 | `Instance`     | `01, 02`                                   |	`Numeric or short identifier for scaling`
 
 
