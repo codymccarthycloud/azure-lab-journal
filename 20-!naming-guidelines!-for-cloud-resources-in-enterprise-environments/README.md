@@ -13,13 +13,13 @@ Professional naming increases resource discoverability, simplifies automation, a
 
 Components
 
-Component _______Example_____________________________________Description___________________________
-- Env          | (e.g., lab, test, prod)	lab             |	Environment                      
-- Location     | abbreviation	scus (South Central US)     |	Azure region                         
-- ResourceType | (vm, vnet, nsg, etc.)	vm                |	Type of resource                      
-- Role	       | (web, db, jump)	jump                    | Function of the resource                
-- Instance     | 01, 02                                   |	Numeric or short identifier for scaling
-___________________________________________________________________________________________________
+Component ---------Example---------------------------------------Description-----------------------------
+- `Env`          | `(e.g., lab, test, prod)`                  |	`Environment`                      
+- `Location`     | `abbreviation	scus (South Central US)`    |	`Azure region`                         
+- `ResourceType` | `(vm, vnet, nsg, etc.)	vm`                 |	`Type of resource`                      
+- `Role`	       | `(web, db, jump)	jump`                     | `Function of the resource`                
+- `Instance`     | `01, 02`                                   |	`Numeric or short identifier for scaling`
+---------------------------------------------------------------------------------------------------------
 
 Common Azure Resource Naming Matrix
 
@@ -51,13 +51,13 @@ Future Additions
 [Env]-[Location]-[ServerType]-[Role]-[Instance]
 
 
-Component_____Example Values______Description_____________
--Env        | prod, test, dev  |	Environment indicator
--Location	  | tor, scus, nyc   |	Physical/Cloud location
--ServerType	| srv, app, db, fs |	Abbreviated type
--Role	      | web, api, auth   | Functional responsibility
--Instance	  | 01, 02	         | For scaling and HA setups
-__________________________________________________________
+Component----------Example Values--------Description---------------
+- `Env`         | `prod, test, dev`  | `Environment indicator`
+- `Location`	  | `tor, scus, nyc`   | `Physical/Cloud location`
+- `ServerType`	| `srv, app, db, fs` | `Abbreviated type`
+- `Role`	      | `web, api, auth`   | `Functional responsibility`
+- `Instance`	  | `01, 02`	         | `For scaling and HA setups`
+------------------------------------------------------------------
 
 Sample server names:
 
