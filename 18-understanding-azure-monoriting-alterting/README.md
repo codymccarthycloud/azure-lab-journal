@@ -16,10 +16,6 @@ This document walks through creating an availability alert on a storage account,
 
 ---
 
-
-
----
-
 ## 2. Create the Availability Alert Rule
 
 1. In **Monitor**, go to **Alerts** > **Alert rules** > **+ Create** > **Alert rule**.  
@@ -41,11 +37,11 @@ Fill in the basics:
    - Subscription and Resource group  
    - Action group name: `ag-storage-alert`  
    - Display name: `StorageAlerts`  
+
 Under **Notifications**, add:
    - **Email/SMS/Push/Voice**  
      - Email: user@example.com  
-     - SMS: +1 123 456 7890  
-     - Azure mobile app (Push)  
+  
    - **Webhook**  
      - Name: `webhookAction`  
      - URL: `https://example.com/webhook`  
@@ -54,7 +50,7 @@ Review and click **Create**.
 
 5. Under **Alert rule details**:
    - Alert rule name: `alert-storage-availability`  
-   - Severity: **Sev 2** (or as appropriate)  
+   - Severity: **Sev error** (or as appropriate)  
    - Description: “Fires when storage account availability drops below 100%.”  
 6. Click **Review + create**, then **Create**.
 
