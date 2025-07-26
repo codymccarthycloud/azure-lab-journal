@@ -41,7 +41,7 @@ az vm create \
 
 ```bash
 az storage account create \
-  --name pslabhtgswa<RANDOM_NUM> \
+  --name testeussafiles01 \
   --resource-group <RESOURCE_GROUP_NAME> \
   --location <LOCATION> \
   --sku Standard_LRS \
