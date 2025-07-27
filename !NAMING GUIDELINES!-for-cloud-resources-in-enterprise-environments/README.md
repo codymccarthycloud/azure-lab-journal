@@ -73,3 +73,12 @@ Keep consistency with VM naming if servers and VMs coexist.
 If servers are grouped in clusters, include node identifiers (e.g., dbnode1).
 Consider including owner or project codes for large enterprises (e.g., fin, hr, ops).
 Avoid embedding dates—they get stale fast.
+
+## Comparison 
+
+Comparison
+
+| `Parameter`	  | `Used In`                 	| `Purpose`	                                      | `Example Values` |             
+|---------------|-----------------------------|-------------------------------------------------|-------------------------------|
+| `storage-sku` |	`az vm create`	            | `Sets OS disk type for a Virtual Machine`       |	`StandardSSD_LRS, Premium_LRS` |
+| `sku`         |	`az storage account create`	| `Sets performance + redundancy Storage Account` |	`Standard_LRS, Premium_LRS`|
