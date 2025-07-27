@@ -62,4 +62,4 @@ Empower proactive cost governance by enabling deep insights and optimization opp
 ![3 cost management budgets](https://github.com/user-attachments/assets/40c34a28-c371-4205-b7fa-fabe8a365de4)
 ![4 naviagte to the resource group cost management cost analysis optimize for resource groups and subscriptions going overbuget](https://github.com/user-attachments/assets/e74dc0a3-ffe4-465b-8a97-5c819db22fac)
 ![5 select scope target subscriptions and resource groups](https://github.com/user-attachments/assets/442b9394-e39b-4ae4-b189-6b8edbc6c61c)
-
+![6 resource group cost management advisor reccomendations to optimize](https://github.com/user-attachments/assets/b3da0362-e345-4fe8-b827-b3d988929774)
