@@ -82,3 +82,31 @@ Comparison
 |---------------|-----------------------------|-------------------------------------------------|-------------------------------|
 | `storage-sku` |	`az vm create`	            | `Sets OS disk type for a Virtual Machine`       |	`StandardSSD_LRS, Premium_LRS` |
 | `sku`         |	`az storage account create`	| `Sets performance + redundancy Storage Account` |	`Standard_LRS, Premium_LRS`|
+
+---
+
+# Azure Resource Type Naming Chart
+
+This table maps common Azure resource types to their professional naming abbreviations for use in naming conventions like `[Env]-[Location]-[ResourceType]-[Role]-[Instance]`.
+
+| Resource Type             | Abbreviation | Sample Name                  | Notes                                           |
+|---------------------------|--------------|------------------------------|-------------------------------------------------|
+| Virtual Machine           | `vm`         | `prod-eus-vm-web-01`         | Use hyphens for readability                     |
+| Virtual Network           | `vnet`       | `lab-scus-vnet-main`         | Logical network container                       |
+| Storage Account           | `stg`        | `testwcusstgfiles01`         | No hyphens; DNS compliant                       |
+| Blob Container            | `cnr` or `blob` | `cnr-images-prod`         | Use lowercase and hyphens                       |
+| Network Security Group    | `nsg`        | `dev-ncus-nsg-db`            | Often tied to VM role                           |
+| Resource Group            | `rg`         | `prod-eus-rg-app`            | Group of resources for lifecycle control        |
+| Dashboard                 | `dash`       | `test-scus-dash-monitoring01`| Useful for tracking resource performance        |
+| Key Vault                 | `kv`         | `test-scus-kv-appsecrets01`  | Holds secrets, certs, keys                      |
+| Managed Identity          | `id`         | `test-scus-id-vm01`          | Linked to VM or service                         |
+| Azure Function App        | `func`       | `prod-eus-func-email01`      | Event-based compute                             |
+| Container Instance        | `aci`        | `dev-eus-aci-web01`          | Lightweight containers                          |
+| Application Gateway       | `agw`        | `prod-scus-agw-frontend01`   | For secure web traffic routing                  |
+| Load Balancer             | `lb`         | `test-eus-lb-api01`          | Evenly distributes traffic                      |
+| Log Analytics Workspace   | `log`        | `prod-scus-log-core01`       | Collects and queries telemetry data             |
+
+> Use compressed formats like `testwcusstgfiles01` for resources that don’t allow hyphens (e.g., Storage Accounts), and stick to lowercase where required.
+
+---
+
