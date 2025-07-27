@@ -57,8 +57,8 @@ Understanding blob access tiers helps optimize both **cost** and **performance**
 
 ## Access Tier Comparison Chart
 
-| Tier        | Access Frequency         | 💰 Storage Cost | ⚡ Speed to Access | ⏳ Min Retention Period | Best For                                 |
-|-------------|--------------------------|------------------|---------------------|--------------------------|-------------------------------------------|
+| Tier        | Access Frequency         |   Storage Cost |   Speed to Access |   Min Retention Period | Best For                                 |
+|-------------|--------------------------|------------------|---------------------|--------------------------|---------------------|
 | **Hot**     | Frequently accessed       | High              | Immediate            | None                     | Active data, real-time applications        |
 | **Cool**    | Infrequent (≥30 days)     | Medium            | Immediate            | 30 days                  | Backups, rarely accessed logs             |
 | **Cold**    | Rare (≥90 days)           | Low               | Immediate            | 90 days                  | Compliance data, long-term archives       |
