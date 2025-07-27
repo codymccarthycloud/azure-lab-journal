@@ -2,8 +2,8 @@
 
 ```bash
 # Clone the lab repo, navigate to the Python folder, install the SDK
-git clone https://github.com/pluralsight-cloud/content-az-204-developing-solutions-for-microsoft-azure.git AZ204_Labs && \
-cd AZ204_Labs/work_with_cosmos/python/ && \
+git clone https://github.com/pluralsight-cloud/content-az-204-developing-solutions-for-microsoft-azure.git AZ204_Labs 
+cd AZ204_Labs/work_with_cosmos/python/
 pip install --user azure-cosmos
 ```
 
