@@ -118,4 +118,3 @@ az storage blob show \
 ![2 blob uploads access tiers hot alter](https://github.com/user-attachments/assets/ada0f774-5a3f-4349-a1df-fbaa099c5856)
 ![3 altered storage container blobs access tiers to hot cool and archive](https://github.com/user-attachments/assets/eb88ce1d-8ad8-4aef-9924-90e6a78d3f71)
 ![4 download hot and cool blobs unable to download archive would need to rehydrate priority takes a long time](https://github.com/user-attachments/assets/71a3c90d-770e-45f5-b114-cd67984b11da)
-
