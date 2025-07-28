@@ -47,6 +47,22 @@ Future Additions
 
 ---
 
+## Azure Environment Tagging Cheat Sheet
+
+| Tag        | Description                                     | Usage Scenario                              | Example Prefix            |
+|------------|-------------------------------------------------|---------------------------------------------|---------------------|
+| `dev`      | Development environment                         | Code iteration, debugging, experimentation  | `dev-scus-webapp-01` 
+| `test`     | Testing / QA environment                        | Run test cases, simulate production         | `test-eus-apiapp-02` 
+| `prod`     | Production environment                          | Live services used by end-users             | `prod-wcus-clientapp-01`|
+| `ent`      | Enterprise-grade resource                       | Used across org-wide systems and shared infra| `ent-prod-dbcluster-01`|
+| `lab`      | Training or educational setup                   | Learning, internal sandbox projects         | `lab-scus-mlcluster-01`|
+| `stag`     | Staging / Pre-prod environment                  | Final testing before go-live                | `stag-eus-portalapp-01`|
+| `sandbox`  | Temporary freeform dev or trial zone            | MVPs, demos, developer exploration          | `sandbox-nyc-funcapp-01`|
+| `dr`       | Disaster Recovery environment                   | Redundant backup environment                | `dr-scus-vm-jump-01`|
+| `poc`      | Proof of Concept                                | Feasibility tests, early stage experiments  | `poc-tor-aiapp-01`|
+
+---
+
 ## Server Naming Convention Pattern
 
 [Env]-[Location]-[ServerType]-[Role]-[Instance]
@@ -109,4 +125,36 @@ This table maps common Azure resource types to their professional naming abbrevi
 > Use compressed formats like `testwcusstgfiles01` for resources that don’t allow hyphens (e.g., Storage Accounts), and stick to lowercase where required.
 
 ---
+
+## Common Azure Web App Naming Patterns
+
+| Suffix          | Description                                      | Example Name                     |
+|------------------|--------------------------------------------------|----------------------------------|
+| `webapp`         | Generic web application                          | `prod-eus-webapp-01`             |
+| `web-cliapp`     | Created using CLI or automation script           | `test-scus-web-cliapp-02`        |
+| `web-apiapp`     | Hosts RESTful or GraphQL APIs                    | `dev-wcus-web-apiapp-01`         |
+| `web-clientapp`  | Front-end user interface                         | `prod-eus-web-clientapp-03`      |
+| `web-adminapp`   | Admin dashboard or internal tool                 | `test-nyc-web-adminapp-01`       |
+| `web-portalapp`  | Customer or employee portal                      | `prod-tor-web-portalapp-02`      |
+| `web-mobileapp`  | Backend for mobile apps                          | `dev-scus-web-mobileapp-01`      |
+| `web-logicapp`   | Logic App workflows hosted as web endpoints      | `lab-wus-web-logicapp-01`        |
+| `web-testapp`    | Temporary or test environment                    | `test-eus-web-testapp-05`        |
+
+---
+
+## Azure Machine Learning Compute Naming Patterns
+
+| Suffix           | Description                                      | Example Name                      |
+|------------------|--------------------------------------------------|-----------------------------------|
+| `cpucluster`     | CPU-based compute cluster for general ML tasks   | `dev-scus-cpucluster-01`          |
+| `gpucluster`     | GPU-powered cluster for deep learning training   | `prod-eastus-gpucluster-02`       |
+| `mlworkspace`    | Azure ML Workspace name                          | `test-wcus-mlworkspace-01`        |
+| `mlcompute`      | Single-node ML compute target                    | `dev-nyc-mlcompute-03`            |
+| `automlcluster`  | Dedicated compute for AutoML experiments         | `test-scus-automlcluster-01`      |
+| `pipelinestep`   | Compute used in a pipeline step                  | `prod-eus-pipelinestep-02`        |
+| `modeldeploy`    | Compute for hosting deployed models              | `prod-tor-modeldeploy-01`         |
+| `inferencing`    | Inferencing target, often CPU-based              | `prod-eus-inferencing-01`         |
+| `labcluster`     | Educational or training compute environment      | `lab-scus-labcluster-01`          |
+
+
 
