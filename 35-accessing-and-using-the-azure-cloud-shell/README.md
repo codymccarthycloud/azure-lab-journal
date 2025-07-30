@@ -4,7 +4,7 @@
 
 - Configure the Azure Cloud Shell environment
 - Execute Azure CLI and PowerShell commands
-- Create and remove a virtual machine using both interfaces
+- Create and remove a virtual machine using CLI
 
 ---
 
@@ -32,7 +32,7 @@ az vm list
 az resource list
 ```
 
-## Create a VM with Azure CLI
+### Create a VM with Azure CLI
 
 ```bash
 az vm create \
@@ -44,10 +44,9 @@ az vm create \
   --admin-username azureuser \
   --generate-ssh-keys \
   --public-ip-sku standard
-
 ```
 
-Confirmed deployment via:
+### Confirmed deployment via:
 
 ```bash
 az vm show --name testcusvm01 --resource-group <your-rg>
@@ -62,7 +61,7 @@ Get-AzVM
 Get-AzResource
 ```
 
-Remove VM via PowerShell
+### Remove VM via PowerShell
 
 ```bash
 Remove-AzVM \
