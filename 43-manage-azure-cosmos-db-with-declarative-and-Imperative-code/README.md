@@ -60,6 +60,7 @@ ex: /versions/v1
 
 ## Lab Output Screenshots
 
+![1 change session to eventual](https://github.com/user-attachments/assets/4c06fddf-5184-4d04-bc15-771291ad2fd3)
 ![Uploading 3 change name of new container.JPG…]()
 ![4 match id to name change](https://github.com/user-attachments/assets/f5fe8137-7abd-4da5-8691-6b6655d99542)
 ![5 custom deployment](https://github.com/user-attachments/assets/5827af99-6e78-419e-8534-8dcb29425b08)
@@ -76,6 +77,3 @@ ex: /versions/v1
 ![16 check to see is the template spec and cosmos db deployed](https://github.com/user-attachments/assets/3f9f9fcb-a99b-41f4-8328-1f29cfb07428)
 ![17 adding consistency policy back in to my json template](https://github.com/user-attachments/assets/144eeb7e-76f0-4bae-b69b-f873bddf9442)
 ![18 default consistency eventual](https://github.com/user-attachments/assets/0bc83dd5-3a90-49dd-880e-52cd8f82fb1e)
-![1 change session to eventual](https://github.com/user-attachments/assets/4c06fddf-5184-4d04-bc15-771291ad2fd3)
-
-
