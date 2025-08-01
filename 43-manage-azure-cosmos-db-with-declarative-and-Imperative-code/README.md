@@ -7,7 +7,7 @@
 3. Edit the Template Spec to change the default consistency level to Eventual and add a new container named `ExtraLabContainer`.  
 4. Deploy the updated Template Spec via Azure CLI and verify changes in the portal.  
 
-## Lab Tasks
+## Lab Tasks 
 
 ### 1. Housekeeping
 
