@@ -18,6 +18,10 @@ Select dotnet-isolated and C#
 ## 3. Update the Schedule Expression
 Open TimerFunction.cs and locate the TimerTrigger attribute:
 
+```bash
+code .
+```
+
 ```csharp
 [Function("TimerFunction")]
 public static void Run(
@@ -47,6 +51,13 @@ In local.settings.json, set your storage connection string:
 }
 ```
 The storage connection is required for timer triggers to fire locally.
+
+## 5. Edit functest.csproj
+```bash
+dotnet --version
+```
+Edit functest.csproj change dotnet V8 to V9:
+- net9.0
 
 ## 5. Run the Function Locally
 ```bash
