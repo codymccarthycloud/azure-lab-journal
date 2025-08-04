@@ -1,7 +1,8 @@
 # Azure NSG Deployment with Terraform – Lab Documentation
 
 ## Lab Overview
-This lab demonstrates deploying an Azure Network Security Group (NSG) using Terraform through Azure Cloud Shell. It covers file creation, uploading to Cloud Shell, verifying contents, executing Terraform commands, and confirming deployment via the Azure Portal.
+This lab demonstrates deploying an Azure Network Security Group (NSG) using Terraform through Azure Cloud Shell. 
+It covers file creation, uploading to Cloud Shell, verifying contents, executing Terraform commands, and confirming deployment via the Azure Portal.
 
 ---
 
@@ -17,7 +18,6 @@ This lab demonstrates deploying an Azure Network Security Group (NSG) using Terr
 
 ## Step 2: Upload the File into Azure Cloud Shell
 
-- Go to [https://portal.azure.com](https://portal.azure.com)
 - Launch **Azure Cloud Shell** from the top menu (select **Bash**)
 - When prompted, select **Show Advanced Settings**
   - Use pre-selected Resource Group and Storage Account
