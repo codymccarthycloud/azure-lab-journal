@@ -17,7 +17,7 @@ Objective: verify connectivity and inspect your new network topology.
 
 ---
 
-## 📄 Create Terraform Configuration
+## Create Terraform Configuration
 
 Create a file named `Deploy Vnet and 2 Subnets customize names` with the following content (replace names/locations as needed):
 
@@ -115,11 +115,6 @@ Verify the plan shows creation of VNet, and Subnets: Apply
 ![6 storageblob recorded log analytics](https://github.com/user-attachments/assets/30b4d997-971c-447f-b38d-f412f270607a)
 ![7 azure metrics recorded logs tf file upload vnet and subnets created](https://github.com/user-attachments/assets/3406734f-5e2c-4334-9bea-c5318e8b22b8)
 ![8 azure monitor activity log](https://github.com/user-attachments/assets/4f944d89-b2b6-4368-a47d-5902260bb041)
-
-
-
-
-
 
 
 
