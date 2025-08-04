@@ -19,13 +19,6 @@ terraform init
 terraform plan
 terraform apply
 ```
-## Step 2: Deploy the VM Using Terraform CLI
-
-In Azure Cloud Shell (Bash), run the following commands:
-
-terraform init
-terraform plan
-terraform apply
 
 - Confirm deployment by typing "yes" when prompted.
 - Terraform will provision the following:
