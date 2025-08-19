@@ -4,34 +4,34 @@
 1. Search for Azure SQL
 In the top search bar, type "Azure SQL"
 
-Select Azure SQL under Services
+- Select Azure SQL under Services
 
 2. Create SQL Virtual Machine
-Click Create Azure SQL resource
+- Click Create Azure SQL resource
 
 Under SQL virtual machines, choose:
-Image: Free SQL Server License: SQL 2025 Developer on Windows Server 2025
-Click Create
+- Image: Free SQL Server License: SQL 2025 Developer on Windows Server 2025
+- Click Create
 
 4. Configure VM Settings
-Resource Group: Select the one created by the lab
-VM Name: Choose a unique name
-Region: (US) West US
-Size: Select B2s, then click Select
-Admin Credentials: Provide username and password
-Public Inbound Ports: Select None
+- Resource Group: Select the one created by the lab
+- VM Name: Choose a unique name
+- Region: (US) West US
+- Size: Select B2s, then click Select
+- Admin Credentials: Provide username and password
+- Public Inbound Ports: Select None
 
 5. Review and Deploy
-Click Review + create
-Validate settings
-Click Create
+- Click Review + create
+- Validate settings
+- Click Create
 
 ## Post-Deployment
-Click Go to resource
-You now have a fully functional SQL Server VM
-You can:
-RDP into the VM for local management
-Configure remote access for external clients
+- Click Go to resource
+- You now have a fully functional SQL Server VM
+- You can:
+- RDP into the VM for local management
+- Configure remote access for external clients
 
 ### Enterprise vs. Standard Azure SQL VM Server Deployment
 
