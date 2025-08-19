@@ -50,6 +50,19 @@ Standard Edition for:
 - Smaller apps or internal tools
 - Dev/test environments
 
+## Key Differences: SQL Server on Windows VM vs. Manual SQL Install
+
+| **Aspect**               | **SQL Server on Windows VM (Preconfigured)**       | **Windows VM + Manual SQL Install**            |
+|--------------------------|----------------------------------------------------|------------------------------------------------|
+| **Deployment Method**    | From Azure Marketplace as a SQL VM image           | Create VM, then install SQL Server manually    |
+| **SQL Licensing**        | Included in the image (Developer, Standard, etc.)  | Must handle licensing separately               |
+| **SQL Configuration**    | Pre-installed and optimized for Azure              | You configure everything yourself              |
+| **Management Features**  | Integrated with Azure SQL VM resource provider     | No SQL-specific management in Azure Portal     |
+| **Backup & Patching**    | Automated via SQL IaaS Agent                       | Manual setup required                          |
+| **Monitoring & Insights**| SQL-specific dashboards and alerts                 | Generic VM metrics only                        |
+| **Time to Deploy**       | ~5 minutes                                         | 30+ minutes depending on setup                 |
+
+
 ## Lab Output Screenshots
 
 ![1](https://github.com/user-attachments/assets/971a15e2-166c-43a7-950d-f9c055d6dd17)
