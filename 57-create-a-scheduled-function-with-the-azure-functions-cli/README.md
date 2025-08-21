@@ -87,7 +87,5 @@ Expression	Description
 ![7](https://github.com/user-attachments/assets/735eddd0-350d-42b5-9ee2-302acee40d4d)
 ![8](https://github.com/user-attachments/assets/8330190b-e045-4a32-a286-dd205486cc49)
 ![9](https://github.com/user-attachments/assets/76badb09-3d02-43b5-8d3c-5e3407eb6bdf)
-![10](https://github.com/user-attachments/assets/f84f2083-08ea-4a49-bee9-40460e5cf7c0)
-![11](https://github.com/user-attachments/assets/dedaddd0-23fc-4fab-bbc0-ca1664eb0a80)
 ![12](https://github.com/user-attachments/assets/5a0328b0-389b-454b-af4d-c8ba8065f682)
 ![13](https://github.com/user-attachments/assets/02606330-72d0-4200-87ba-c86ceb789137)
