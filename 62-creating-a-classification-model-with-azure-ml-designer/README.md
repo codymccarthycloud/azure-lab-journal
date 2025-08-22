@@ -23,7 +23,7 @@ Modules & Configuration
 
 
 | Module                        | Configuration Notes                    |
---------------------------------------------------------------------------
+--------------------------------|-----------------------------------------
 | Diabetes Dataset              | Drag onto canvas                       |
 | Select Columns in Dataset     | Exclude 'PatientID'                    |
 | Normalize Data                | Exclude 'Diabetic'                     |
