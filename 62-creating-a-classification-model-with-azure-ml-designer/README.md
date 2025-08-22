@@ -40,7 +40,7 @@ Modules & Configuration
 - Click Configure & Submit
 - Create experiment: diabetesJob
 - Select compute target: Compute cluster
-- After completion, right-click Evaluate Model → Preview Data
+- After completion, right-click Evaluate Model > Preview Data
 
 ## Create Inference Pipeline
 Click Create inference pipeline → Real-time inference
