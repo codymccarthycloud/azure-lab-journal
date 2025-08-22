@@ -21,9 +21,9 @@ Go to Designer > Create a new pipeline
 Drag and drop modules in this order:
 Modules & Configuration
 
-+-------------------------------+----------------------------------------+
+--------------------------------------------------------------------------
 |           Module              |           Configuration Notes          |
-+-------------------------------+----------------------------------------+
+--------------------------------------------------------------------------
 | Diabetes Dataset              | Drag onto canvas                       |
 | Select Columns in Dataset     | Exclude 'PatientID'                    |
 | Normalize Data                | Exclude 'Diabetic'                     |
@@ -32,7 +32,7 @@ Modules & Configuration
 | Train Model                   | Label column: 'Diabetic'               |
 | Score Model                   | Connect trained model and test data    |
 | Evaluate Model                | View accuracy, precision, recall       |
-+-------------------------------+----------------------------------------+
+--------------------------------------------------------------------------
 
 
 ## Run and Evaluate
