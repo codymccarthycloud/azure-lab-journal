@@ -21,8 +21,8 @@ Go to Designer > Create a new pipeline
 Drag and drop modules in this order:
 Modules & Configuration
 
---------------------------------------------------------------------------
-|           Module              |           Configuration Notes          |
+
+| Module                        | Configuration Notes                    |
 --------------------------------------------------------------------------
 | Diabetes Dataset              | Drag onto canvas                       |
 | Select Columns in Dataset     | Exclude 'PatientID'                    |
