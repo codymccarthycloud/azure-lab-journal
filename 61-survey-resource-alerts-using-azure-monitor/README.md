@@ -72,12 +72,10 @@ Verify network security group (NSG) and firewall settings; note any blocked or d
 ![6](https://github.com/user-attachments/assets/318db174-cd97-4577-a656-04fd8ee20e2c)
 ![7](https://github.com/user-attachments/assets/bc0ed7ca-7ea6-4b7b-9fb3-f0890357f089)
 ![8](https://github.com/user-attachments/assets/62323279-5de0-4b00-9eba-ba527a97d0b7)
+![15](https://github.com/user-attachments/assets/cfc375ca-b0c1-42a0-8d79-3f576bb41ed5)
 ![9](https://github.com/user-attachments/assets/157f1c26-bfcc-478d-b7df-12b780eab5c5)
 ![10](https://github.com/user-attachments/assets/0f2dd63e-0bef-4bf2-aa7d-c81f5b421d9e)
 ![11](https://github.com/user-attachments/assets/e11eec5c-9bae-4328-8c2b-5d8e767eed91)
 ![12](https://github.com/user-attachments/assets/9c7a397f-5523-4da8-a1f3-5ad74fda0fbf)
 ![13](https://github.com/user-attachments/assets/02db95a9-249d-41fc-b584-f759a987bd96)
 ![14](https://github.com/user-attachments/assets/16d06701-4be9-4e28-a8bc-232e391a06f2)
-
-
-
