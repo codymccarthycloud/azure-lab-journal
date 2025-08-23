@@ -38,6 +38,8 @@ Configure:
 - Backup Policy: NightlyVMBackup
 - Click Enable Backup.
 
+---
+
 ## Lab Output Screenshots
 
 ![1](https://github.com/user-attachments/assets/f85fd16e-a909-40c8-8cb1-90894a616ab9)
