@@ -52,6 +52,8 @@ Look for:
 - Exclude irrelevant columns like year to improve model accuracy.
 - Use RMSE and R² to compare different regression models.
 
+---
+
 ## Lab Output Screenshots
 
 ![1](https://github.com/user-attachments/assets/beea7a03-9d73-4805-899b-f007ed8d708b)
