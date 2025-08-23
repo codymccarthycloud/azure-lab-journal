@@ -76,6 +76,8 @@ Expression	Description
 "0 0 9 * * *"	Every day at 9 AM
 "0 0 9 * * 1"	Every Monday at 9 AM
 
+---
+
 ## Lab Output Screenshots
 
 ![1](https://github.com/user-attachments/assets/076dc99e-bba5-48c1-8363-49b9807cca2c)
