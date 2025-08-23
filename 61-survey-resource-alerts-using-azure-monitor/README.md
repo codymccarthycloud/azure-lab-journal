@@ -60,6 +60,7 @@ Verify network security group (NSG) and firewall settings; note any blocked or d
 - Wait for the provisioning to complete, then switch to the Live Metrics or Logs view to confirm telemetry flow.
 - Confirm that you’ve surveyed all resource alerts and activated Application Insights.
 
+---
 
 ## Lab Output Screenshots
 
