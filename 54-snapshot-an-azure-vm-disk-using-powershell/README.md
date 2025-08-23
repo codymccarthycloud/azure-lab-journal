@@ -65,6 +65,8 @@ Start-AzStorageBlobCopy `
 Once the snapshot is copied, you’ll see the .vhd file appear in container1 within your storage account. 
 This snapshot can be used for backup, migration, or restoration.
 
+---
+
 ## Lab Output Screenshots
 
 ![1](https://github.com/user-attachments/assets/c866a6a7-60bd-4513-8baf-9908c235a03f)
