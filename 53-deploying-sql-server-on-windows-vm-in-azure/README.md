@@ -62,6 +62,7 @@ Standard Edition for:
 | **Monitoring & Insights**| SQL-specific dashboards and alerts                 | Generic VM metrics only                        |
 | **Time to Deploy**       | ~5 minutes                                         | 30+ minutes depending on setup                 |
 
+---
 
 ## Lab Output Screenshots
 
