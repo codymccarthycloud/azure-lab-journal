@@ -34,6 +34,7 @@ Run the CLI command:
 az iot hub create --name <UniqueHubName> --resource-group <ResourceGroupName> --sku B1 --unit 1
 ```
 
+---
 
 ## Lab Output Screenshots
 
