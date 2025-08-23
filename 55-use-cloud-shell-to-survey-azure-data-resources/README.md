@@ -83,6 +83,8 @@ az resource list --query "[?contains(name, 'cosmos')]" --output yaml
 - Use PowerShell and Azure CLI to query Azure resources
 - Understand basic resource metadata and access controls
 
+---
+
 ## Lab Output Screenshots
 
 ![1](https://github.com/user-attachments/assets/8ecddb40-ad3a-46eb-ace6-c8f16247d924)
