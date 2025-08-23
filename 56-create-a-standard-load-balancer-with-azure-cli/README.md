@@ -229,6 +229,8 @@ Paste the IP into your web browser. You should see alternating responses from VM
 - Add health probe and load balancing rule
 - Verify cconnectivity via public IP
 
+---
+
 ## Lab Output Screenshots
 
 ![1](https://github.com/user-attachments/assets/13cc140b-b406-4124-85f6-dab8c5bb8671)
