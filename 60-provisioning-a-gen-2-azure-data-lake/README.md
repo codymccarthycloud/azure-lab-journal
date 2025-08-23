@@ -37,6 +37,8 @@ In the Azure portal dashboard:
 ### Conclusion
 Created an Azure Data Lake Gen2 Storage account successfully with hierarchical namespace enabled and implemented a zoned folder structure.
 
+---
+
 ## Lab Output Screenshots
 
 ![1](https://github.com/user-attachments/assets/2b2ff601-8157-4177-bebc-574270562b82)
