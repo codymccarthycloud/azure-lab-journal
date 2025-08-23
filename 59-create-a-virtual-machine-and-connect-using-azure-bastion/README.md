@@ -33,6 +33,7 @@ Go to the VM resource once it's deployed.
 - Enter the username and password you set during VM creation.
 - Click Connect.
 
+---
 
 ## Lab Output Screenshots
 
