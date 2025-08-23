@@ -54,6 +54,8 @@ Select Pipeline Runs.
 Filter by time or pipeline name to view recent executions.
 Click on a run to view activity details, logs, and error messages.
 
+---
+
 ## Lab Output Screenshots 
 
 ![1](https://github.com/user-attachments/assets/d790a774-ce21-4162-b671-de7ec5f910f5)
