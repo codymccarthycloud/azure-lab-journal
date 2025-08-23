@@ -64,6 +64,8 @@ Add:
 - Use confusion matrix to interpret model performance
 - Monitor endpoint usage and latency under Monitoring
 
+---
+
 ## Lab Output Screenshots
 
 ![1](https://github.com/user-attachments/assets/106ca21f-4cb1-4e5f-b593-d9f086c11c67)
