@@ -34,7 +34,7 @@ Use ACR Tasks to build and push the image:
 
 ```bash
 az acr build --image sample/hello-world:v1 \
-  --registry acrbuildcontainer11 \
+  --registry acrbuildcontainer425 \
   --file Dockerfile .
 ```
 Once complete, verify the image in the Azure portal under your container registry.
@@ -43,7 +43,7 @@ Once complete, verify the image in the Azure portal under your container registr
 Execute the container directly from ACR:
 
 ```bash
-az acr run --registry acrbuildcontainer11 \
+az acr run --registry acrbuildcontainer425 \
   --cmd '$Registry/sample/hello-world:v1' /dev/null
 ```
 
