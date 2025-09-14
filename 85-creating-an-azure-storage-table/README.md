@@ -2,22 +2,22 @@
 
 
 ## Create a Storage Account
-1. Open the Azure Portal.
-2. Click the **menu icon** in the top-left corner.
-3. Navigate to **Storage accounts** and click **Add**.
-4. Fill in the following:
+- Open the Azure Portal.
+- Click the **menu icon** in the top-left corner.
+- Navigate to **Storage accounts** and click **Add**.
+- Fill in the following:
    - **Resource group**: Select your existing group.
    - **Storage account name**: Must be globally unique.
    - **Location**: Match the resource group’s location.
-5. Click **Review + create**, then **Create**.
-6. Once deployed, click **Go to resource**.
+- Click **Review + create**, then **Create**.
+- Once deployed, click **Go to resource**.
 
 
 ## Create a Storage Table
-1. On the storage account overview page, click **Tables** (or find it in the left-hand menu).
-2. Click **+ Table**.
-3. Name the table: `training`.
-4. Click **OK**.
+- On the storage account overview page, click **Tables** (or find it in the left-hand menu).
+- Click **+ Table**.
+- Name the table: `training`.
+- Click **OK**.
 
 
 ## Insert Data into the Table
@@ -37,16 +37,16 @@
 - **FullName**: `Jesse Hoch`
 - **FieldOfStudy**: `Linux`
 
-4. Click **Insert** after each entity.
+- Click **Insert** after each entity.
 
 
 ## Query for Students
-1. In the table view, click **Add filter**.
-2. Set:
+- In the table view, click **Add filter**.
+- Set:
    - **Column**: `PartitionKey`
    - **Value**: `Students`
-3. Click **Apply**.
-4. You should see only the student entity returned.
+- Click **Apply**.
+- You should see only the student entity returned.
 
 
 ## Conclusion
