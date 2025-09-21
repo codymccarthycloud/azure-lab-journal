@@ -1,4 +1,4 @@
-Implement Data Masking in Azure SQL Database
+# Implement Data Masking in Azure SQL Database
 
 In this lab, you’ll act as a database owner who configures Dynamic Data Masking (DDM) to protect sensitive data from unauthorized access. 
 You’ll create masking rules and simulate access using a test user.
